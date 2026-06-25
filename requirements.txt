@@ -1,0 +1,7 @@
+customtkinter
+Pillow
+mss
+pynput
+requests
+keyring
+pystray
