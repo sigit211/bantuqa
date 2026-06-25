@@ -19,7 +19,6 @@ BantuQa adalah aplikasi desktop Windows untuk membantu tim QA mengambil bukti la
 - Timer dengan tombol `Start`, `Hold`, dan `Stop`.
 - Tray icon dengan menu `Open Dashboard` dan `Exit`.
 - Single instance agar hanya satu aplikasi berjalan.
-- Global hotkey `Ctrl+Shift+S` untuk memulai capture dari luar aplikasi.
 
 ## Struktur proyek
 
@@ -106,7 +105,7 @@ Hasil build biasanya berada di:
 1. Saat pertama kali dijalankan, aplikasi menampilkan layar login.
 2. Masukkan URL TestRail, email, dan API key/password.
 3. Setelah login berhasil, pilih project, plan/run, lalu case yang akan dikerjakan.
-4. Gunakan `Ctrl+Shift+S` atau tombol capture untuk mengambil screenshot.
+4. Gunakan tombol capture untuk mengambil screenshot.
 5. Setelah screenshot muncul, lakukan anotasi jika diperlukan.
 6. Review hasil di gallery dan tambahkan komentar bila perlu.
 7. Klik `Upload Attachments` untuk mengunggah screenshot ke run yang dipilih.
@@ -117,7 +116,6 @@ Hasil build biasanya berada di:
 ### Hotkey tidak bekerja
 - Pastikan `pynput` sudah terinstall dengan benar.
 - Coba restart aplikasi.
-- Jika aplikasi sedang berjalan di background, tekan `Ctrl+Shift+S` setelah aplikasi benar-benar aktif.
 
 ### Login gagal
 - Periksa URL TestRail sudah benar.
